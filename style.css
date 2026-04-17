@@ -1,0 +1,109 @@
+html, body, [data-testid="stAppViewContainer"] {
+    background-color: #111827;
+    color: white;
+}
+
+[data-testid="stHeader"] {
+    background: rgba(0,0,0,0);
+}
+
+.block-container {
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.metric-card {
+    background-color: #1f2937;
+    padding: 16px;
+    border-radius: 14px;
+    border: 1px solid #2d3748;
+}
+
+.ticker-bar {
+    background-color: #0f2744;
+    padding: 10px 16px;
+    border-radius: 10px;
+    margin-bottom: 18px;
+    color: #dbeafe;
+    font-weight: 600;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.panel-box {
+    background-color: #1f2937;
+    padding: 18px;
+    border-radius: 16px;
+    border: 1px solid #374151;
+    margin-bottom: 18px;
+}
+
+.small-muted {
+    color: #9ca3af;
+    font-size: 14px;
+}
+
+.buy-pill {
+    background-color: #d1fae5;
+    color: #065f46;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.hold-pill {
+    background-color: #fef3c7;
+    color: #92400e;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.sell-pill {
+    background-color: #fee2e2;
+    color: #991b1b;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.table-wrap table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-wrap th, .table-wrap td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #374151;
+}
+
+.table-wrap th {
+    color: #d1d5db;
+}
+
+.disclaimer-box {
+    background-color: #1f2937;
+    border: 1px solid #374151;
+    border-radius: 14px;
+    padding: 12px 16px;
+    margin-top: 10px;
+}
+
+.metric-card h2 {
+    margin-top: 8px;
+    margin-bottom: 0;
+    color: #ffffff;
+}
+
+.metric-card .small-muted {
+    color: #9ca3af;
+    font-size: 14px;
+}
+
+input {
+    border-radius: 10px !important;
+}
